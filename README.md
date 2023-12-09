@@ -3,7 +3,7 @@ A FiveM standalone tooling resource that other resources can pull (fake) america
 
 Usage:
 ```lua
-  local owner = exports["db-fakeprofile"]:getRandomProfile()
+  local owner = exports["db-fakeprofiles"]:getRandomProfile()
 --[[
   id = 87654,
   ssn = "123-45-6789",
@@ -15,5 +15,5 @@ Usage:
   jobcomapny = "eTransportMS North",
 ]]
 
-  local bulk = exports["db-fakeprofile"]:getRandomProfile(5000) --returns a table of the above tables.
+  local bulk = exports["db-fakeprofiles"]:getRandomProfile(5000) --returns a table of the above tables.
 ```
